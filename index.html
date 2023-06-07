@@ -78,7 +78,7 @@
             <div class="position">
               <button class="modal-close-button" data-modal-close>X</button>
             </div>
-            <form name="signup_form" autocomplete="on" novalidate>
+            <form name="signup_form" autocomplete="on">
               <h2 class="modal-form-h2">
                 Deje sus datos, nos contactaremos con usted
               </h2>
@@ -137,7 +137,12 @@
                 ></textarea>
               </label>
               <label>
-                <input type="checkbox" name="agree" value="agredment" checked />
+                <input
+                  type="checkbox"
+                  name="agree"
+                  value="agredment"
+                  required
+                />
                 Estoy de acuerdo con el boletín informativo y acepto los
                 Términos y Condiciones
               </label>
